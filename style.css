@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.beginning-header {
+    background-color:rgba(0, 0, 0, .8);
+    position: fixed; 
+    width: 100%;
+    top: 0;
+}
+
+.header-content {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 25px;
+}
+
+.links-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.links-a {
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.links-a:hover {
+    color: deeppink;
+    text-decoration: deeppink underline 2px;
+}
+
+.presentation {
+    width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-welcome {
+    font-size: 20px;
+    margin-bottom: 4px;
+    letter-spacing: 5px;
+}
+
+.presentation-title {
+    font-size: 53px;
+}
+
+.presentation-span {
+    color: deeppink;
+}
+
+.presentation-description {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+
+}
+
+/* Beginning */
+.beginning-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)), url("computer.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Form */
+.contact-section {
+    background-color: rgb(244, 244, 244);
+    height: 550px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.contact-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 31px;
+}
+
+.contact-form-container {
+    margin: 0 auto;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.input-name {
+    width: 100%;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    resize: none;
+    margin-bottom: 10px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.input-message {
+    height: 150px;
+}
+
+.input-button {
+    margin-top: 20px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.input-button:hover {
+    background-color: deeppink;
+    cursor: pointer;
+}
